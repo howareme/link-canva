@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kumpulan link Canva Temu Ramah Himate 2026">
+  <title>Login — Link Canva</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #F9FAFB;
+      --surface: #FFFFFF;
+      --border: #E5E7EB;
+      --text: #111827;
+      --muted: #6B7280;
+      --subtle: #9CA3AF;
+      --accent: #2563EB;
+      --accent-h: #1D4ED8;
+      --danger: #DC2626;
+      --radius: 10px;
+    }
+
+    body {
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', system-ui, sans-serif;
+    }
+
+    .login-screen {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+    }
+    .login-card {
+      width: 100%;
+      max-width: 400px;
+      padding: 44px 40px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      box-shadow: 0 1px 3px rgba(0,0,0,.06), 0 4px 16px rgba(0,0,0,.04);
+    }
+    .header { margin-bottom: 32px; }
+    .brand-icon {
+      width: 44px;
+      height: 44px;
+      display: grid;
+      place-items: center;
+      margin-bottom: 20px;
+      background: var(--accent);
+      border-radius: 10px;
+    }
+    .brand-icon svg {
+      width: 22px;
+      height: 22px;
+      fill: none;
+      stroke: #fff;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    .header h1 { font-size: 1.35rem; font-weight: 700; letter-spacing: -.3px; }
+    .header p { margin-top: 4px; color: var(--muted); font-size: .875rem; }
+    .form-group { margin-bottom: 18px; }
+    label {
+      display: block;
+      margin-bottom: 6px;
+      color: var(--text);
+      font-size: .8rem;
+      font-weight: 600;
+    }
+    input {
+      width: 100%;
+      padding: 10px 13px;
+      color: var(--text);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font: inherit;
+      font-size: .9rem;
+      outline: none;
+      transition: border-color .15s, box-shadow .15s;
+    }
+    input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(37,99,235,.12); }
+    input::placeholder { color: #C4C9D4; }
+    .error {
+      display: none;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 20px;
+      padding: 10px 13px;
+      color: var(--danger);
+      background: #FEF2F2;
+      border: 1px solid #FECACA;
+      border-radius: 8px;
+      font-size: .85rem;
+      font-weight: 500;
+    }
+    .error.visible { display: flex; }
+    .btn {
+      width: 100%;
+      margin-top: 6px;
+      padding: 11px;
+      color: #fff;
+      background: var(--accent);
+      border: 0;
+      border-radius: 8px;
+      font: inherit;
+      font-size: .9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background .15s;
+    }
+    .btn:hover { background: var(--accent-h); }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 24px;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+    }
+    .topbar-brand { display: flex; align-items: center; gap: 10px; }
+    .topbar .brand-icon {
+      width: 32px;
+      height: 32px;
+      margin: 0;
+      border-radius: 8px;
+    }
+    .topbar .brand-icon svg { width: 16px; height: 16px; stroke-width: 2.2; }
+    .brand-name { color: var(--text); font-size: .95rem; font-weight: 700; letter-spacing: -.2px; }
+    .logout-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 14px;
+      color: var(--muted);
+      background: none;
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      font: inherit;
+      font-size: .8rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: border-color .15s, color .15s;
+    }
+    .logout-btn:hover { color: var(--danger); border-color: var(--danger); }
+    .logout-btn svg {
+      width: 14px;
+      height: 14px;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    .page { max-width: 600px; margin: 0 auto; padding: 40px 24px 64px; }
+    .page-header { margin-bottom: 28px; }
+    .page-header h1 { color: var(--text); font-size: 1.5rem; font-weight: 700; letter-spacing: -.4px; }
+    .page-header p { margin-top: 4px; color: var(--muted); font-size: .875rem; }
+    .section-label {
+      margin-bottom: 10px;
+      color: var(--subtle);
+      font-size: .7rem;
+      font-weight: 600;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    .link-list { display: flex; flex-direction: column; gap: 6px; }
+    .link-item {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 13px 16px;
+      color: var(--text);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      text-decoration: none;
+      transition: border-color .15s, box-shadow .15s;
+    }
+    .link-item:hover { border-color: #BFDBFE; box-shadow: 0 0 0 3px rgba(37,99,235,.07); }
+    .link-num { width: 20px; color: var(--subtle); font-size: .75rem; font-weight: 600; text-align: right; }
+    .link-icon {
+      width: 36px;
+      height: 36px;
+      display: grid;
+      flex-shrink: 0;
+      place-items: center;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 1.2rem;
+    }
+    .link-body { flex: 1; min-width: 0; }
+    .link-title { overflow: hidden; font-size: .9rem; font-weight: 600; text-overflow: ellipsis; white-space: nowrap; }
+    .link-url { overflow: hidden; margin-top: 2px; color: var(--subtle); font-size: .75rem; text-overflow: ellipsis; white-space: nowrap; }
+    .link-arrow {
+      width: 28px;
+      height: 28px;
+      display: grid;
+      flex-shrink: 0;
+      place-items: center;
+      border-radius: 6px;
+      transition: background .15s;
+    }
+    .link-arrow svg {
+      width: 14px;
+      height: 14px;
+      fill: none;
+      stroke: var(--subtle);
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      transition: stroke .15s;
+    }
+    .link-item:hover .link-arrow { background: #EFF6FF; }
+    .link-item:hover .link-arrow svg { stroke: var(--accent); }
+    .footer { margin-top: 48px; color: var(--subtle); font-size: .78rem; text-align: center; }
+    [hidden] { display: none !important; }
+
+    @media (max-width: 480px) {
+      .login-card { padding: 36px 26px; }
+      .topbar { padding: 0 16px; }
+      .page { padding: 32px 16px 48px; }
+      .link-item { gap: 10px; padding: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main id="login-screen" class="login-screen">
+    <section class="login-card" aria-labelledby="login-title">
+      <header class="header">
+        <div class="brand-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+        </div>
+        <h1 id="login-title">Link Canva</h1>
+        <p>Masuk untuk mengakses daftar link</p>
+      </header>
+
+      <div id="login-error" class="error" role="alert">
+        <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        <span>Username atau password salah.</span>
+      </div>
+
+      <form id="login-form">
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" placeholder="Masukkan username" autocomplete="username" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="Masukkan password" autocomplete="current-password">
+        </div>
+        <button type="submit" class="btn">Masuk</button>
+      </form>
+    </section>
+  </main>
+
+  <div id="dashboard" hidden>
+    <header class="topbar">
+      <div class="topbar-brand">
+        <div class="brand-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+        </div>
+        <span id="brand-name" class="brand-name"></span>
+      </div>
+      <button id="logout-button" class="logout-btn" type="button">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>
+        Keluar
+      </button>
+    </header>
+
+    <main class="page">
+      <header class="page-header">
+        <h1 id="page-title"></h1>
+        <p id="page-subtitle"></p>
+      </header>
+      <p id="link-count" class="section-label"></p>
+      <div id="link-list" class="link-list"></div>
+      <footer class="footer">
+        &copy; <span id="year"></span> <span id="footer-title"></span> &mdash; Temu Ramah Himate
+      </footer>
+    </main>
+  </div>
+
+  <script>
+    // Data ini menggantikan data/config.json dan data/links.json pada versi PHP.
+    const CONFIG = {
+      title: 'Link Canva',
+      subtitle: 'Link canva untuk acara temu ramah 2026',
+      username: 'pdd',
+      password: ''
+    };
+
+    const LINKS = [
+      { id: 1, title: 'Segera Dibuka & QnA', url: 'https://canva.link/u8l5vdqtj6emqsf', icon: '📢', active: true },
+      { id: 2, title: 'Pendaftaran', url: 'https://canva.link/syblv36sej6lynj', icon: '📝', active: true },
+      { id: 3, title: 'Twibbon', url: 'https://canva.link/v6341iv9oee86ae', icon: '🖼️', active: true },
+      { id: 4, title: 'Spanduk', url: 'https://canva.link/dgcdernn8yxxrmi', icon: '🎨', active: true },
+      { id: 5, title: 'Name Tag Panitia', url: 'https://canva.link/96z6x4htfaoxxza', icon: '🪪', active: true },
+      { id: 6, title: 'Sertifikat Pemateri', url: 'https://canva.link/uvqr1xyu212r3hq', icon: '🏆', active: true },
+      { id: 7, title: 'Ganci (Logo/Maskot)', url: 'https://canva.link/ba22gfae6nsnp2z', icon: '🔑', active: true },
+      { id: 8, title: 'Coming Soon H-3, 2, 1', url: 'https://canva.link/40xh4400tru7ckr', icon: '⏳', active: true },
+      { id: 9, title: 'Live Report', url: 'https://canva.link/tma4ndrrhqp81s9', icon: '📡', active: true }
+    ];
+
+    const loginScreen = document.getElementById('login-screen');
+    const dashboard = document.getElementById('dashboard');
+    const errorMessage = document.getElementById('login-error');
+
+    function renderDashboard() {
+      document.title = CONFIG.title;
+      document.getElementById('brand-name').textContent = CONFIG.title;
+      document.getElementById('page-title').textContent = CONFIG.title;
+      document.getElementById('page-subtitle').textContent = CONFIG.subtitle;
+      document.getElementById('page-subtitle').hidden = !CONFIG.subtitle;
+      document.getElementById('footer-title').textContent = CONFIG.title;
+      document.getElementById('year').textContent = new Date().getFullYear();
+
+      const activeLinks = LINKS.filter((link) => link.active);
+      document.getElementById('link-count').textContent = `${activeLinks.length} link tersedia`;
+      const list = document.getElementById('link-list');
+
+      activeLinks.forEach((link, index) => {
+        const item = document.createElement('a');
+        item.className = 'link-item';
+        item.href = link.url;
+        item.target = '_blank';
+        item.rel = 'noopener noreferrer';
+
+        const number = document.createElement('span');
+        number.className = 'link-num';
+        number.textContent = String(index + 1);
+
+        const icon = document.createElement('span');
+        icon.className = 'link-icon';
+        icon.setAttribute('aria-hidden', 'true');
+        icon.textContent = link.icon || '🔗';
+
+        const body = document.createElement('span');
+        body.className = 'link-body';
+        const title = document.createElement('span');
+        title.className = 'link-title';
+        title.textContent = link.title;
+        const url = document.createElement('span');
+        url.className = 'link-url';
+        url.textContent = link.url;
+        body.append(title, url);
+
+        const arrow = document.createElement('span');
+        arrow.className = 'link-arrow';
+        arrow.setAttribute('aria-hidden', 'true');
+        arrow.innerHTML = '<svg viewBox="0 0 24 24"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>';
+
+        item.append(number, icon, body, arrow);
+        list.append(item);
+      });
+    }
+
+    function showDashboard() {
+      loginScreen.hidden = true;
+      dashboard.hidden = false;
+      renderDashboard();
+    }
+
+    document.getElementById('login-form').addEventListener('submit', (event) => {
+      event.preventDefault();
+      const username = document.getElementById('username').value.trim();
+      const password = document.getElementById('password').value;
+
+      if (username === CONFIG.username && password === CONFIG.password) {
+        sessionStorage.setItem('link-canva-logged-in', 'true');
+        errorMessage.classList.remove('visible');
+        showDashboard();
+        return;
+      }
+
+      errorMessage.classList.add('visible');
+    });
+
+    document.getElementById('logout-button').addEventListener('click', () => {
+      sessionStorage.removeItem('link-canva-logged-in');
+      dashboard.hidden = true;
+      loginScreen.hidden = false;
+      document.getElementById('login-form').reset();
+      errorMessage.classList.remove('visible');
+      document.title = 'Login — Link Canva';
+    });
+
+    if (sessionStorage.getItem('link-canva-logged-in') === 'true') {
+      showDashboard();
+    }
+  </script>
+</body>
+</html>
