@@ -201,9 +201,20 @@
       border-radius: 8px;
       font-size: 1.2rem;
     }
-    .link-body { flex: 1; min-width: 0; }
-    .link-title { overflow: hidden; font-size: .9rem; font-weight: 600; text-overflow: ellipsis; white-space: nowrap; }
-    .link-url { overflow: hidden; margin-top: 2px; color: var(--subtle); font-size: .75rem; text-overflow: ellipsis; white-space: nowrap; }
+    .link-body {
+      display: flex;
+      flex: 1;
+      min-width: 0;
+      flex-direction: column;
+    }
+    .link-title, .link-url {
+      display: block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .link-title { font-size: .9rem; font-weight: 600; }
+    .link-url { margin-top: 2px; color: var(--subtle); font-size: .75rem; }
     .link-arrow {
       width: 28px;
       height: 28px;
@@ -303,9 +314,9 @@
     };
 
     const LINKS = [
-      { id: 1, title: 'Segera Dibuka & QnA', url: 'https://canva.link/u8l5vdqtj6emqsf', icon: '📢', active: true },
+      { id: 1, title: 'Segera Dibuka & QnA (Progress 99%)', url: 'https://canva.link/u8l5vdqtj6emqsf', icon: '📢', active: true },
       { id: 2, title: 'Pendaftaran', url: 'https://canva.link/syblv36sej6lynj', icon: '📝', active: true },
-      { id: 3, title: 'Twibbon', url: 'https://canva.link/v6341iv9oee86ae', icon: '🖼️', active: true },
+      { id: 3, title: 'Twibbon (Progress 99%)', url: 'https://canva.link/v6341iv9oee86ae', icon: '🖼️', active: true },
       { id: 4, title: 'Spanduk', url: 'https://canva.link/dgcdernn8yxxrmi', icon: '🎨', active: true },
       { id: 5, title: 'Name Tag Panitia', url: 'https://canva.link/96z6x4htfaoxxza', icon: '🪪', active: true },
       { id: 6, title: 'Sertifikat Pemateri', url: 'https://canva.link/uvqr1xyu212r3hq', icon: '🏆', active: true },
